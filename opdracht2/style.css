@@ -13,3 +13,43 @@ img{
 }
 /* Einde aangeleverde code, laten staan, niet veranderen */
 /* Vul hieronder je eigen code */
+header,main,footer{
+    width:100%;
+}
+
+header,footer{
+    background-color: lightgrey;
+    height:100%;
+}
+
+nav{
+    display:flex;
+}
+
+nav ul{
+    display:flex;
+    padding:20px;
+    list-style-type: none;
+}
+
+nav li{
+    border: 1px dashed black
+}
+
+nav li a{
+    display:flex;
+    text-decoration: none;
+    width:100px;
+}
+
+div h1{
+    font-size:50px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    list-style-type: circle;
+}
